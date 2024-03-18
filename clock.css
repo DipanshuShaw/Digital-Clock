@@ -11,21 +11,30 @@ html, body{
     width: 300px;
     min-width: 300px;
     /* border: 2px solid black; */
-    height: 100px;
+    height: 80px;
     /* display: flex; */
     /* place-items: center;
     grid-row: 1;
     grid-column: 1fr 1fr 1fr; */
 
     margin: 0 auto;
+    text-align: center;
 }
 
 #hour, #minute, #second{
-    width: 32.4%;
+    /* width: 32.4%; */
     height: 100%;
     display: inline-block;
     /* border: 1px solid blue; */
     /* display: ; */
-    font-size: 3.7rem;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#day , #dates, #year{
+    display: inline-block;
+    /* border: 1px solid blue; */
+    /* display: ; */
+    font-size: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
